@@ -202,7 +202,7 @@
     <string name="interval">Interval kontroly upozornění</string>
 
     <!--Crash Dialog-->
-    <string name="crash_toast_text">Něco není v pořádku.</string>
+    <string name="crash_toast_text">Něco není v pořádku</string>
     <string name="crash_dialog_title">Maki havaroval</string>
     <string name="crash_dialog_text">Bohužel se Maki zastavila. Klepnutím na tlačítko OK odešlete tento přehled e-mailem.</string>
     <string name="crash_dialog_comment_prompt">Zde můžete zanechat komentáře o této havárii:</string>
