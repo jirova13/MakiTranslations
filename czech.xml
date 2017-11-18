@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation" 
+
+    <string name="closeDrawer">Zobrazení navigace</string>
+    <string name="openDrawer">Otevřít zásuvku vlevo</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Zrušit</string>
+    <string name="choose_email_client">Vyberte e-mailového klienta</string>
+    <string name="no_network">Nejste online.</string>
+    <string name="title_activity_settings">Nastavení</string>
+    <string name="preference_about_category">O</string>
+    <string name="share_action">Sdílet</string>
+    <string name="share_action_subject">Facebooková stránka</string>
+    <string name="success">Úspěch</string>
+    <string name="error">Chyba</string>
+    <string name="fragment_main_downloading">Stahování&#8230;</string>
+    <string name="settings_more">Více</string>
+
+    <string name="update_share">Podíl</string>
+    <string name="fab_jump">Přejít nahoru</string>
+
+    <string name="newsfeed">News Feed</string>
+    <string name="messages">Zprávy</string>
+    <string name="faved">Piny</string>
+    <string name="favorites">Oblíbené</string>
+    <string name="friends">Žádosti</string>
+
+
+    <string name="photos">Fotky</string>
+    <string name="maki_themes">Témata</string>
+    <string name="saved">Uloženo</string>
+    <string name="settings">Nastavení</string>
+
+    <string name="themes">Témata</string>
+    <string name="privacy">Nastavení ochrany osobních údajů
+</string>
+
+
+    <string name="news_feed_preferences">Facebook předvolby</string>
+    <string name="fb_chat">Aktivní přátelé</string>
+    <string name="refresh">Obnovit</string>
+
+    <string name="notifications">Oznámení</string>
+    <string name="search">Vyhledávání</string>
+    <string name="end">Odhlásit se</string>
+    <string name="exit">Zavřít</string>
+
+
+    <string-array name="pref_theme_entries">
+        <item>Maki Témata</item>
+        <item>Facebook Blue</item>
+		<item>Falcon</item>
+        <item>Růžový</item>
+        <item>Nachový</item>
+		<item>Tmavě Zelený</item>
+		<item>Světle Zelený</item>
+		<item>Jantarový</item>
+		<item>Oranžová</item>
+		<item>Tyrkysová</item>
+        <item>Červená</item>
+		<item>Tmavý</item>
+        <item>AMOLED</item>
+    </string-array>
+
+
+
+    <string name="image_chooser">Výběr obrázku</string>
+    <string name="addPage">Přidat k oblíbeným</string>
+
+    <string name="interval_pref_description">Oznámení budou synchronizována vždy %s</string>
+    <string-array name="update_interval">
+        <item>30 sekund (high data usage)</item>
+        <item>1 minuta (high data usage)</item>
+        <item>5 minut</item>
+        <item>15 minut</item>
+        <item>30 minut</item>
+        <item>1 hodina</item>
+        <item>3 hodiny</item>
+        <item>6 hodin</item>
+    </string-array>
+
+    <string name="you_have_one_message">Máte 1 novou zprávu</string>
+    <string name="you_have_n_messages">Máte %d nové zprávy</string>
+    <string name="notifications_settings">Oznámení</string>
+    <string name="notification_sound">Zvuk oznámení</string>
+    <string name="silent">Žádný zvuk</string>
+    <string name="vibrate">Vibrovat</string>
+    <string name="led_light">LED světla</string>
+
+
+    <string name="maki_lock">Povolit přístupový kód</string>
+    <string name="lock_text_new">Zabezpečit Maki přístupovým kódem</string>
+    <string name="lock_text_new_fingerprint">Případně můžete použít otisk prstu.</string>
+
+    <string name="context_save_image">Stáhnout obrázek</string>
+    <string name="context_share_image">Sdílet obrázek</string>
+    <string name="context_copy_image_link">Kopírovat odkaz</string>
+    <string name="context_share_image_progress">Připravuje se&#8230;</string>
+    <string name="content_copy_link_done">Odkaz zkopírován do schránky</string>
+
+    <string name="permission_denied">Přístup odepřen. Tato akce nemůže být dokončena.</string>
+
+    <string name="copy_right">\u00A9</string>
+	<string name="error_general">Chyba</string>
+    <string name="save_img">Uložit</string>
+    <string name="download_manager_disabled">Správce stahování byl zakázán</string>
+    <string name="enable_location">Povolit umístění</string>
+
+    <string name="hide_ads">Odstranit sponzorované příspěvky</string>
+    <string name="hide_ads_more">Odstraňte veškerou reklamu na informačním kanálu Facebook</string>
+	<string name="exit_message">Opravdu chcete zavřít Maki?</string>
+	<string name="version">Verze</string>
+
+
+	<string name="welcome">Ahoj</string>
+    <string name="saved_pin_message">Pokud zapomenete svůj pin, prosím vymažte data Maki z správce aplikací v telefonu.</string>
+
+    <string name="pin_code_forgot_text">Zapomněli jste?</string>
+    <string name="pin_code_step_disable">Zakázat přístupový kód</string>
+    <string name="pin_code_step_create">Vytvořte přístupový kód</string>
+    <string name="pin_code_step_change">Zadejte aktuální přístupový kód</string>
+    <string name="pin_code_step_unlock">Zadejte heslo</string>
+    <string name="pin_code_step_enable_confirm">Potvrďte heslo</string>
+
+    <string name="pin_code_fingerprint_text">Otisky prstů</string>
+    <string name="pin_code_fingerprint_success">Otisk prstu rozpoznán</string>
+    <string name="pin_code_fingerprint_not_recognized">Zkus to znovu</string>
+    <string name="activity_dialog_title">Nepřekládat</string>
+    <string name="activity_dialog_accept">Nepřekládat</string>
+    <string name="activity_dialog_content">Nepřekládat</string>
+    <string name="activity_dialog_decline">Nepřekládat</string>
+	<string name="accept">Přijímám</string>
+    <string name="kitkat_upload">KitKat Nahrává</string>
+    <string name="kitkat_upload_message">Dobrý den, zdá se, že používáte Android KitKat. Pokud je vaše verze KitKat 4.4 - 4.4.3, nahrávání fotografií nebude v Maki fungovat. Toto je omezení v těch verzích KitKat. Toto omezení je opraveno ve verzi 4.4.4 KitKat.</string>
+    <string name="try_upload">Zkuste Nahrát</string>
+    <string name="logged_out">Odhlásit se.</string>
+    <string name="open_in_browser">Otevřít v prohlížeči</string>
+    <string name="copy_url">Zkopírovat do schránky</string>
+
+
+
+    <string name="download">Stáhnout</string>
+
+    <string name="down_view">Tap \"Zobrazit plnou velikost\" ke stažení nebo zobrazení obrázku.</string>
+    <string name="getting_image">Získání obrázku</string>
+    <string name="aleady_at_top">Již nahoře</string>
+    <string name="removed">Odstraněno</string>
+    <string name="from_favs">from pins.</string>
+    <string name="error_code_value" >špatně</string>
+    <string name="auto_night_title">Automaticky Noční Téma</string>
+    <string name="auto_night_more">Temný motiv bude automaticky aktivován v noci</string>
+    <string name="logout_message">Jste si jistá, že byste se chtěli odhlásit z Maki?</string>
+    <string name="context_share_video">Sdílet video</string>
+    <string name="change_log">Co je nového</string>
+	<string name="save_to">Uloženo do:</string>
+    <string name="downloading_on_mobile">Stahování pomocí mobilních dat.</string>
+    <string name="font_size">Velikost písma</string>
+    <string name="top_news_firstly">Zobrazit nejprve zprávy</string>
+    <string name="quickbar">Quickbar</string>
+    <string name="quickbar_more">Získejte přístup ke Facebooku všude</string>
+
+    <string name="messages_shortcut">Zkratka Zpráv</string>
+    <string name="notifications_shortcut">Zkratka Oznámení</string>
+    <string name="messages_shortcut_more">Vytvořte zástupce Zpráv na domovské obrazovce</string>
+    <string name="notifications_shortcut_more">ytvořte zástupce Oznámení na domovské obrazovce</string>
+
+    <string name="twitter_shortcut">Twitter zástupce</string>
+    <string name="instagram_shortcut">Instagram zástupce</string>
+    <string name="twitter_shortcut_more">Vytvořte zástupce Twitter na domovské obrazovce</string>
+    <string name="instagram_shortcut_more">Vytvořte zástupce Instagram na domovské obrazovce</string>
+
+    <string name="type_archive">Archiv</string>
+    <string name="type_certificate">Certifikát</string>
+    <string name="type_directory">Adresář</string>
+    <string name="type_document">Soubor</string>
+    <string name="type_drawing">Obrázek</string>
+    <string name="type_excel">tabulkový procesor</string>
+    <string name="type_image">obraz</string>
+    <string name="type_music">hudba</string>
+    <string name="type_video">video</string>
+    <string name="type_pdf">PDF dokument</string>
+    <string name="type_power_point">Prezentace</string>
+    <string name="type_word">Dokument</string>
+    <string name="type_apk">APK</string>
+    <string name="open_with">Otevřít v</string>
+    <string name="pick">Klepnutím na \ u2713 vyberte tento adresář.</string>
+    <string name="create_directory">Vytvořit adresář</string>
+    <string name="most_recent">Nejnovější</string>
+    <string name="top_news">Nejlepší zprávy</string>
+
+    <string name="messenger">Zprávy</string>
+    <string name="about">O</string>
+    <string name="feedback">Poslat zpětnou vazbu</string>
+    <string name="ratemaki">Ohodnotit Maki</string>
+
+    <string name="feedback_mail">Zpětná vazba</string>
+    <string name="some_feedback">Zde je nějaká zpětná vazba</string>
+
+    <string name="messenger_app">Aplikace Facebook Messenger</string>
+    <string name="messenger_app_more">Použít aplikaci Facebook Messenger namísto vestavěného programu Messenger</string>
+
+    <string name="interval">Interval kontroly upozornění</string>
+
+    <!--Crash Dialog-->
+    <string name="crash_toast_text">Něco není v pořádku.</string>
+    <string name="crash_dialog_title">Maki havaroval</string>
+    <string name="crash_dialog_text">Bohužel se Maki zastavila. Klepnutím na tlačítko OK odešlete tento přehled e-mailem.</string>
+    <string name="crash_dialog_comment_prompt">Zde můžete zanechat komentáře o této havárii:</string>
+
+    <string name="new_directory">Vytvořen nový adresář: </string>
+    <string name="changed">Změněno na: </string>
+    <string name="pins_here">Připnout své oblíbené stránky zde pro rychlejší přístup.</string>
+    <string name="download_not_found">Soubor nebyl nalezen</string>
+    <string name="profile">Mě</string>
+    <string name="share">Sdílet</string>
+
+    <string name="welcome_back">Vítejte!</string>
+    <string name="twitter">Twitter</string>
+    <string name="instagram">Instagram</string>
+
+    <string name="addHome">Přidat na domácí obrazovku</string>
+
+    <!--Defaults-->
+    <string name="materialtheme">materialtheme</string>
+    <string name="most_recent_settings">nejnovější</string>
+    <string name="googlebluedark">googlebluedark</string>
+
+    <string name="power">Šetření energie</string>
+    <string name="power_saving_mode">Úsporný režim</string>
+    <string name="power_saving_mode_more">Šetřete energii a používejte Facebook déle</string>
+
+   
+    <string name="thanks_support">Děkuji za vaši podporu!</string>
+    <string name="unable_purchase">Nákup zrušen</string>
+
+    <string name="donate_support">Podpora vývoje</string>
+    <string name="purchase">Nákup</string>
+
+    <string name="help">Pomoc</string>
+    <string name="dark">Tmavé téma</string>
+    <string name="home">Domů</string>
+    <string name="switch_to_maki">Facebook</string>
+
+    <string name="no_location_permission">Žádné oprávnění k umístění</string>
+    <string name="no_storage_permission">Žádné povolení k ukládání</string>
+    <string name="added">Uloženo do oblíbených</string>
+    <string name="tofav">k oblíbeným.</string>
+
+    <string name="download_failed">Stažení se nezdařilo</string>
+    <string name="download_paused">Stahování pozastaveno</string>
+    <string name="download_pending">Čekání na stažení</string>
+    <string name="download_in_progress">Probíhá stahování</string>
+    <string name="download_complete">Stahování dokončeno</string>
+    <string name="download_nowhere">Stahování není nikde v dohledu</string>
+    <string name="image_share">Image Share</string>
+
+    <string name="notifications_on">oznámení zapnuty</string>
+    <string name="turn_to_notifications">Povolit přijímání oznámení</string>
+
+    <string name="remove_pin">Odstranit záložku?</string>
+    <string name="should_remove">Opravdu chcete odstranit</string>
+    <string name="from_pins">z oblíbených? Tuto akci nelze vrátit zpět.</string>
+    <string name="label">Štítek</string>
+    <string name="license">Licence s otevřeným zdrojovým kódem</string>
+
+    <string name="never">Nikdy</string>
+
+    <string name="rate_hello">Ohodnotit Maki</string>
+    <string name="rate_more">Co si myslíte o Maki? Ohodnoťte tuto aplikaci zde:</string>
+    <string name="negative_review">Negativní kontrola</string>
+    <string name="contact_us">Prosím, kontaktujte nás a řekněte, co se vám v Maki nelíbí. Děkuji!</string>
+    <string name="review">Posouzení</string>
+
+    <string-array name="font_choice">
+        <item>80 %</item>
+        <item>90 %</item>
+        <item>100 %</item>
+        <item>105 %</item>
+        <item>110 %</item>
+        <item>135 %</item>
+        <item>150 %</item>
+    </string-array>
+
+    <string name="locked">Zamčeno</string>
+    <string name="please_enter_passcode">Zadejte přístupový kód</string>
+    <string name="lock_input_again">Zadejte znovu nový přístupový kód</string>
+    <string name="lock_input_not_match">Heslo neodpovídá</string>
+
+    <string name="buy_plus">Je čas na Maki Plus</string>
+    <string name="buy_plus_more">Je čas učinit Maki ještě lépe s verzí Plus - odstranit reklamu, vytvořit zkratky, aktivovat auto noční téma a podpora vývojáře.</string>
+    <string name="lets_do_it">Pojďme na to!</string>
+    <string name="later">Později</string>
+
+    <string name="logout">Odhlásit se</string>
+
+    <!--Intro-->
+    <string name="first_slide">Vítejte v Maki</string>
+    <string name="second_slide">Sdílejte a užívejte si. Rychleji.</string>
+    <string name="third_title">Krásná. A čisté</string>
+    <string name="fourth_title">Je čas začít</string>
+
+    <string name="first_description">Nová éra Facebooku na Androidu</string>
+    <string name="second_description">Maki pracuje rychleji než jiná aplikace Facebook, kterou najdete v Obchodu Play</string>
+    <string name="third_description">Všechno, co potřebujete - nic víc</string>
+
+    <string name="next">další</string>
+    <string name="login_fb">Přihlásit se pomocí Facebooku</string>
+
+    <string name="start">Pojďme</string>
+    <string name="thanks">Děkuji mnohokrát!</string>
+
+
+    <string name="about_description">Vytvořeno s láskou společností Sunshine Apps. 2016-2017</string>
+    <string name="like_on_facebook">Like on Facebook</string>
+    <string name="web">Kontakt</string>
+
+    <string name="thanks_more">Děkuji mnohokrát! Restartujte aplikaci, abyste mohli začít používat všechny nové funkce aplikace Maki Plus.</string>
+    <string name="error_link">file:///android_asset/error.html</string>
+    <string name="shortcuts">Klávesové zkratky</string>
+
+<string name="close">Zavřít</string>
+    <string name="support">Podpora</string>
+    <string name="plus_hello">Ahoj,</string>
+    <string name="plus_time">Je čas učinit Maki lepší s</string>
+    <string name="maki_plus">Maki Plus</string>
+    <string name="plus_ads">Zakažte veškerou inzerci z Facebooku ve vašem informačním kanálu. Neuvěřitelný.</string>
+    <string name="plus_dark">Temný motiv bude aktivován automaticky ve zvoleném čase. Skvělý.</string>
+    <string name="plus_shortcuts">Používejte Maki rychleji - vytvořte zkratky pro zprávy a oznámení na domovské obrazovce. A získejte přístup k Facebooku všude s QuickBar. Úžasné.</string>
+    <string name="plus_support">Každý nákup Maki Plus činí Maki lepší - to je pro mě velká motivace!</string>
+    <string name="plus_buy">Kupte si Maki Plus</string>
+    <string name="plus_by">od Sunshine Apps</string>
+
+    <string name="help_translate">Pomoc přeložit</string>
+    <string name="open_in">Prohlížeč v aplikaci</string>
+    <string name="open_in_more">Otevřete vnější odkazy uvnitř Maki</string>
+    <string name="browsing_settings">Nastavení prohlížení</string>
+    <string name="twitter_preferences">Twitter předvolby</string>
+    <string name="twitter_first">Nejprve spusťit Twitter</string>
+    <string name="twitter_first_more">Spusťit Twitter před Facebookem</string>
+
+    <string name="top_tabs">Horní navigace</string>
+    <string name="top_tabs_more">Zobrazit navigační kartu nahoře</string>
+    <string name="fbpage">Facebook stránka</string>
+
+
+    <string-array name="messenger_choice">
+        <item>Messenger v Maki</item>
+        <item>Aplikace Messenger</item>
+        <item>Aplikace Messenger Lite</item>
+    </string-array>
+
+    <string name="dont_show_again">Příště nezobrazovat</string>
+
+    <string name="problems_title">Problémy při nákupu</string>
+    <string name="problems_purchase">
+
+  Děkujeme vám za podporu! Bohužel se zdá, že s nákupem máte nějaké problémy. Tato stránka byla vytvořena právě proto, abyste tento problém vyřešili.
+\n\n
+Máme několik možných řešení:\n\n
+1) Restartujte Maki. Stačí zavřít aplikaci a spustit ji od začátku, otevřít nastavení a pokusit se povolit libovolnou funkci Plus.
+\n\n
+2) Pokud první řešení nefunguje - zkuste znovu kliknout na tlačítko "Koupit Maki Plus". Tato akce obnoví váš nákup (nebudete utrácet peníze znovu, nebojte se). Po restartování aplikace se pokuste povolit libovolnou funkci Plus.
+\n\n
+3) Nakonec, pokud nic z toho nefunguje - kontaktujte nás! Určitě najdeme nejlepší řešení společně.
+\n\n
+Náš email: makifeedback@gmail.com\n
+Facebook stránka: m.facebook.com/sunshineappsst
+\n\n
+S pozdravem, Sunshine Apps
+
+    </string>
+</resources>
+
